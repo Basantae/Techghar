@@ -6,22 +6,11 @@
     <title>Contact Us - TechGhar</title>
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <style>
-        :root {
-            --primary-color: #0a2540;
-            --secondary-color: #00d4ff;
-            --accent-color: #635bff;
-            --light-color: #f7fafc;
-            --dark-color: #1a202c;
-            --text-color: #4a5568;
-            --border-color: #e0e0e0;
-            --error-color: #e53e3e;
-            --success-color: #2f855a;
-            --border-radius: 8px;
-            --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-        
+        /* Reset and Base Styles */
         * {
             margin: 0;
             padding: 0;
@@ -29,9 +18,9 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: var(--text-color);
-            background-color: var(--light-color);
+            font-family: 'Poppins', sans-serif;
+            color: #4a5568;
+            background-color: #f7fafc;
             line-height: 1.5;
             overflow-x: hidden;
         }
@@ -94,7 +83,7 @@
         }
         
         .nav-link {
-            color: var(--dark-color);
+            color: #1a202c;
             font-weight: 500;
             padding: 8px 15px;
             border-radius: 5px;
@@ -109,7 +98,7 @@
             height: 2px;
             bottom: -2px;
             left: 0;
-            background-color: var(--accent-color);
+            background-color: #635bff;
             transition: width 0.3s ease;
         }
         
@@ -119,7 +108,7 @@
         }
         
         .nav-link.active {
-            color: var(--accent-color);
+            color: #635bff;
         }
         
         .nav-icons {
@@ -129,20 +118,20 @@
         
         .nav-icons a {
             margin-left: 20px;
-            color: var(--dark-color);
+            color: #1a202c;
             font-size: 1.2rem;
             transition: color 0.3s ease;
         }
         
         .nav-icons a:hover {
-            color: var(--accent-color);
+            color: #635bff;
         }
         
         .login-btn {
-            background-color: var(--accent-color);
+            background-color: #635bff;
             color: white !important;
             padding: 8px 20px;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             font-size: 0.9rem !important;
             transition: all 0.3s ease;
             box-shadow: 0 4px 6px rgba(99, 91, 255, 0.2);
@@ -156,7 +145,7 @@
         
         /* Hero Banner */
         .hero-banner {
-            background: linear-gradient(to right, var(--primary-color), #1e3a8a);
+            background: linear-gradient(to right, #0a2540, #1e3a8a);
             color: white;
             padding: 80px 0;
             margin-bottom: 60px;
@@ -224,7 +213,7 @@
             position: relative;
             z-index: 1;
             margin-bottom: 15px;
-            color: var(--dark-color);
+            color: #1a202c;
         }
         
         .section-title h2::after {
@@ -232,7 +221,7 @@
             position: absolute;
             width: 60px;
             height: 4px;
-            background-color: var(--accent-color);
+            background-color: #635bff;
             bottom: -10px;
             left: 50%;
             transform: translateX(-50%);
@@ -242,7 +231,7 @@
         .section-title p {
             max-width: 700px;
             margin: 0 auto;
-            color: var(--text-color);
+            color: #4a5568;
         }
         
         .contact-row {
@@ -265,8 +254,8 @@
         
         .contact-info-card {
             background-color: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
             padding: 30px;
             margin-bottom: 30px;
             height: 100%;
@@ -280,7 +269,7 @@
         
         .contact-info-card h3 {
             font-weight: 600;
-            color: var(--dark-color);
+            color: #1a202c;
             margin-bottom: 20px;
             font-size: 1.5rem;
         }
@@ -298,20 +287,20 @@
         .contact-icon {
             width: 50px;
             height: 50px;
-            background-color: var(--light-color);
+            background-color: #f7fafc;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 15px;
-            color: var(--accent-color);
+            color: #635bff;
             font-size: 1.2rem;
             flex-shrink: 0;
             transition: all 0.3s ease;
         }
         
         .contact-info-item:hover .contact-icon {
-            background-color: var(--accent-color);
+            background-color: #635bff;
             color: white;
             transform: scale(1.1);
         }
@@ -322,7 +311,7 @@
         
         .contact-text h4 {
             font-weight: 600;
-            color: var(--dark-color);
+            color: #1a202c;
             margin-bottom: 5px;
             font-size: 1.1rem;
         }
@@ -334,8 +323,8 @@
         
         .contact-form-card {
             background-color: white;
-            border-radius: var(--border-radius);
-            box-shadow: var(--box-shadow);
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
             padding: 30px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -365,13 +354,13 @@
             font-weight: 500;
             margin-bottom: 8px;
             display: block;
-            color: var(--dark-color);
+            color: #1a202c;
         }
         
         .form-control {
             width: 100%;
             height: 50px;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             border: 1px solid #e2e8f0;
             padding: 10px 15px;
             font-size: 1rem;
@@ -379,7 +368,7 @@
         }
         
         .form-control:focus {
-            border-color: var(--accent-color);
+            border-color: #635bff;
             box-shadow: 0 0 0 3px rgba(99, 91, 255, 0.2);
             outline: none;
         }
@@ -392,10 +381,10 @@
         .submit-btn {
             display: inline-block;
             padding: 12px 30px;
-            background-color: var(--accent-color);
+            background-color: #635bff;
             color: white;
             border: none;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -433,7 +422,7 @@
             border-left: 4px solid #10b981;
             padding: 15px;
             margin-top: 20px;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             animation: slideDown 0.4s ease;
         }
         
@@ -456,9 +445,9 @@
         
         .map-container {
             height: 450px;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: var(--box-shadow);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
             position: relative;
         }
         
@@ -496,10 +485,15 @@
         .accordion-item {
             margin-bottom: 15px;
             border: none;
-            border-radius: var(--border-radius);
+            border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
             background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .accordion-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
         
         .accordion-header {
@@ -509,7 +503,7 @@
         .accordion-button {
             padding: 20px;
             font-weight: 600;
-            color: var(--dark-color);
+            color: #1a202c;
             background-color: white;
             border: none;
             width: 100%;
@@ -526,17 +520,17 @@
             content: '\f107';
             font-family: 'Font Awesome 5 Free';
             font-weight: 900;
-            color: var(--dark-color);
+            color: #1a202c;
             transition: all 0.3s ease;
         }
         
         .accordion-button.active {
-            color: var(--accent-color);
+            color: #635bff;
         }
         
         .accordion-button.active:after {
             transform: rotate(180deg);
-            color: var(--accent-color);
+            color: #635bff;
         }
         
         .accordion-content {
@@ -552,7 +546,7 @@
         
         /* Footer */
         footer {
-            background-color: var(--primary-color);
+            background-color: #0a2540;
             color: white;
             padding: 20px 0;
             margin-top: 0;
@@ -561,6 +555,117 @@
         .copyright {
             text-align: center;
             color: rgba(255, 255, 255, 0.7);
+        }
+        
+        /* Popup Message */
+        .popup-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            z-index: 1100;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-message.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        
+        .popup-icon {
+            width: 70px;
+            height: 70px;
+            background-color: #f0fdf4;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: #10b981;
+            font-size: 2rem;
+        }
+        
+        .popup-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 10px;
+        }
+        
+        .popup-text {
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+        
+        .popup-btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #635bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-btn:hover {
+            background-color: #5851e6;
+            transform: translateY(-2px);
+        }
+        
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1050;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .popup-overlay.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        /* Social Media Icons */
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #f7fafc;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1a202c;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            background-color: #635bff;
+            color: white;
+            transform: translateY(-3px);
         }
         
         /* Responsive Adjustments */
@@ -666,6 +771,20 @@
             .map-container {
                 height: 300px;
             }
+            
+            .popup-message {
+                padding: 20px;
+            }
+            
+            .popup-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+            
+            .popup-title {
+                font-size: 1.3rem;
+            }
         }
     </style>
 </head>
@@ -674,7 +793,7 @@
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="/placeholder.svg?height=40&width=150" alt="TechGhar Logo">
+                <img src="/placeholder.svg?height=40&width=150" alt="TechGhar Logo"><!--yesma already css xa so just img halehunxa-->
             </a>
             <button class="navbar-toggler" id="navbarToggler" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -752,7 +871,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Email Address</h4>
-                                <p>info@techghar.com</p>
+                                <p>techghar.online@gmail.com</p>
                                 <p>support@techghar.com</p>
                             </div>
                         </div>
@@ -767,6 +886,21 @@
                                 <p>Saturday: 10:00 AM - 5:00 PM</p>
                                 <p>Sunday: Closed</p>
                             </div>
+                        </div>
+                        
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -812,7 +946,7 @@
                                 <textarea class="form-control" id="message" name="message" placeholder="Enter your message" required></textarea>
                             </div>
                             
-                            <!-- Honeypot field to prevent spam -->
+                          
                             <input type="checkbox" name="botcheck" style="display: none;">
                             
                             <button type="submit" class="submit-btn" id="submitBtn">Send Message</button>
@@ -832,7 +966,8 @@
     <section class="map-section">
         <div class="container">
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56350.26780271105!2d83.94860672167967!3d28.209094900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995937bbf0376ff%3A0xf6cf823b25802164!2sPokhara!5e0!3m2!1sen!2snp!4v1649089900203!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14001.635310566732!2d83.95233687325653!3d28.20760238770089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995951e9cb6e75d%3A0x5ef1e13ad2face48!2sLakeside%2C%20Pokhara%2033700!5e0!3m2!1sen!2snp!4v1649089900203!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
                 <div class="map-overlay"></div>
             </div>
         </div>
@@ -911,6 +1046,68 @@
                         </div>
                     </div>
                 </div>
+                
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-target="collapseSix">
+                            Can I customize my laptop or desktop before purchase?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-content">
+                        <div class="accordion-body">
+                            Yes, we offer customization services for laptops and desktops. You can upgrade components like RAM, storage, graphics cards, and processors based on your requirements. Our technical team will help you choose the right components that are compatible with your system. Customization typically takes 1-2 business days depending on the complexity and availability of parts.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-target="collapseSeven">
+                            Do you offer bulk purchasing for businesses?
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-content">
+                        <div class="accordion-body">
+                            Yes, we offer special pricing and support for business customers purchasing in bulk. We can provide customized solutions based on your business needs, including hardware, software, networking, and ongoing IT support. Contact our business sales team at business@techghar.com for a personalized quote and to discuss your requirements.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-target="collapseEight">
+                            How can I track my order?
+                        </button>
+                    </h2>
+                    <div id="collapseEight" class="accordion-content">
+                        <div class="accordion-body">
+                            Once your order is shipped, you'll receive a tracking number via email and SMS. You can use this tracking number on our website's "Track Order" page or directly with the courier service's website. For local deliveries in Pokhara, our delivery team will contact you before delivery. You can also contact our customer service team for real-time updates on your order status.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-target="collapseNine">
+                            Do you offer price matching?
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-content">
+                        <div class="accordion-body">
+                            Yes, we offer price matching for identical products available from authorized retailers in Nepal. If you find a lower price for the same product (same model, specifications, and warranty) within 7 days of purchase, we'll refund the difference. To request a price match, please provide proof of the competitor's current price through their website or advertisement.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-target="collapseTen">
+                            Do you offer data recovery services?
+                        </button>
+                    </h2>
+                    
+                </div>
             </div>
         </div>
     </section>
@@ -923,6 +1120,17 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Popup Thank You Message -->
+    <div class="popup-overlay" id="popupOverlay"></div>
+    <div class="popup-message" id="popupMessage">
+        <div class="popup-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <h3 class="popup-title">Thank You!</h3>
+        <p class="popup-text">Your message has been sent successfully. Our team will get back to you as soon as possible.</p>
+        <button class="popup-btn" id="popupCloseBtn">Close</button>
+    </div>
 
     <!-- Custom JS -->
     <script>
@@ -962,6 +1170,9 @@
             const form = document.getElementById('contactForm');
             const submitBtn = document.getElementById('submitBtn');
             const thankYouMessage = document.getElementById('thankYouMessage');
+            const popupMessage = document.getElementById('popupMessage');
+            const popupOverlay = document.getElementById('popupOverlay');
+            const popupCloseBtn = document.getElementById('popupCloseBtn');
             
             form.addEventListener('submit', function(e) {
                 e.preventDefault();
@@ -973,14 +1184,13 @@
                 // Create form data
                 const formData = new FormData(form);
                 
-                // Submit form data to Web3Forms
-                fetch('https://api.web3forms.com/submit', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json())
-                .then(data => {
-                    // Show thank you message
+                // Simulate form submission (replace with actual submission in production)
+                setTimeout(function() {
+                    // Show popup thank you message
+                    popupMessage.classList.add('show');
+                    popupOverlay.classList.add('show');
+                    
+                    // Also show inline thank you message
                     thankYouMessage.style.display = 'block';
                     
                     // Reset form
@@ -989,9 +1199,29 @@
                     // Reset button state
                     submitBtn.innerHTML = 'Send Message';
                     submitBtn.disabled = false;
+                }, 1500);
+                
+                
+               
+                fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Show popup thank you message
+                    popupMessage.classList.add('show');
+                    popupOverlay.classList.add('show');
                     
-                    // Scroll to thank you message
-                    thankYouMessage.scrollIntoView({ behavior: 'smooth' });
+                    // Also show inline thank you message
+                    thankYouMessage.style.display = 'block';
+                    
+                    // Reset form
+                    form.reset();
+                    
+                    // Reset button state
+                    submitBtn.innerHTML = 'Send Message';
+                    submitBtn.disabled = false;
                 })
                 .catch(error => {
                     console.error('Error:', error);
@@ -999,6 +1229,18 @@
                     submitBtn.disabled = false;
                     alert('There was an error sending your message. Please try again.');
                 });
+                
+            });
+            
+            // Close popup
+            popupCloseBtn.addEventListener('click', function() {
+                popupMessage.classList.remove('show');
+                popupOverlay.classList.remove('show');
+            });
+            
+            popupOverlay.addEventListener('click', function() {
+                popupMessage.classList.remove('show');
+                popupOverlay.classList.remove('show');
             });
             
             // Button ripple effect
